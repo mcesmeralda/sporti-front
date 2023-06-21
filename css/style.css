@@ -24,13 +24,12 @@
      background: #FAFAFA;
      display: flex;
      flex-direction: row;
-     justify-content: space-between;
-     padding: 7vw;
+     justify-content: space-evenly;
+     padding: 4vw;
      align-items: center;
      align-content: space-around;
-    display: flex;
-    width: 100%;
-    height: 10%;
+    width: 100vw;
+    
 
  }
 
@@ -666,7 +665,7 @@
              display: block;
              font-size: 25px;
              padding: 7vw;
-             margin-left: 40%;
+             margin-left: 50%;
          }
 
 
@@ -813,7 +812,7 @@
      }
 
      .list-li {
-         padding: 55px;
+         padding: 47px;
      }
 
      .formulario form {

@@ -25,7 +25,12 @@
      display: flex;
      flex-direction: row;
      justify-content: space-between;
-     padding: 50px 40px 50px 40px;
+     padding: 7vw;
+     align-items: center;
+     align-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
 
  }
 
@@ -36,7 +41,7 @@
      font-size: 25px;
      color: #000000;
      cursor: pointer;
-     margin-right: 20px;
+     padding: 7vw;
  }
 
  .list-link li {
@@ -411,8 +416,8 @@
      font-weight: 700;
      letter-spacing: -0.005em;
      line-height: 48px;
-     margin-right: 32px;
-     width: 393px;
+
+    padding: 2vw;
  }
 
  .boton-go {
@@ -618,10 +623,15 @@
      .bar-btn {
          color: #000000;
          cursor: pointer;
-         display: flex;
+         display: block;
          font-size: 20px;
-         padding-left: 28px;
+         padding: 7vw;
+         margin-left: 126px;
 
+     }
+
+     .sub-go{
+        margin-right: 0;
      }
 
      .banner-img {
@@ -647,9 +657,9 @@
          .bar-btn {
              color: rgb(29, 24, 24);
              cursor: pointer;
-             display: flex;
+             display: block;
              font-size: 25px;
-             margin-left: 178px;
+             padding: 7vw;
          }
 
 

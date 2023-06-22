@@ -5,7 +5,6 @@
      --color-principal: #8B48BF;
      --color-secundario: #3CDDF3;
      --color-texto-principal: #FFFFFF;
-     --color-tres: #1E1E26;
 
  }
 
@@ -29,6 +28,7 @@
      align-items: center;
      align-content: space-around;
      width: 100vw;
+     margin-left: 0%;
 
 
  }
@@ -62,12 +62,14 @@
 
  .list-link a {
      text-decoration: none;
+     transition: all 300ms ease;
 
  }
 
  .list-link :hover {
      color: #242E5299;
      cursor: pointer;
+     transform: scale(1.1);
 
  }
 
@@ -85,6 +87,7 @@
      justify-content: center;
      padding: 10px;
      width: 134px;
+     transition: all 300ms ease;
  }
 
 
@@ -92,6 +95,7 @@
      background-color: #8B48BFB2;
      color: var(--color-texto-principal);
      cursor: pointer;
+     transform: scale(1.1);
  }
 
 
@@ -126,6 +130,8 @@
      justify-content: center;
      padding: 10px;
      width: 134px;
+     transition: all 300ms ease;
+     
  }
 
 
@@ -135,6 +141,8 @@
      background-color: #8B48BFB2;
      color: var(--color-texto-principal);
      cursor: pointer;
+     transform: scale(1.1);
+     
  }
 
  .boton-contacto {
@@ -143,6 +151,7 @@
      justify-content: flex-end;
      margin-bottom: 33px;
      margin-top: 17px;
+     
  }
 
  .sub {
@@ -232,7 +241,7 @@
      justify-content: space-between;
      line-height: 24.18px;
      margin: 30px 0 30px 30px;
-     padding-left: 5px;
+     padding-right: 12px;
 
  }
 
@@ -381,18 +390,23 @@
      margin-top: 40px;
      padding: 10px;
      width: 134px;
+     
+    
  }
 
  .boton-jugadore {
      display: flex;
      justify-content: center;
-
+     transition: all 300ms ease;
+    
  }
 
  .boton-jugadore button:hover {
      background-color: #8B48BFB2;
      color: var(--color-texto-principal);
      cursor: pointer;
+     transform: scale(1.1);
+
  }
 
  /* section got for it */
@@ -437,6 +451,7 @@
      justify-content: center;
      padding: 10px;
      width: 134px;
+     transition: all 300ms ease;
  }
 
 
@@ -444,6 +459,7 @@
      background-color: #232C50;
      color: var(--color-texto-principal);
      cursor: pointer;
+     transform: scale(1.1);
  }
 
  /* footer */
@@ -460,6 +476,7 @@
  .logo-links {
      justify-content: flex-start;
      line-height: 60px;
+     
  }
 
  .social-links a {
@@ -563,12 +580,14 @@
      color: var(--color-texto-principal);
      height: 42px;
      width: 6vw;
+     transition: all 300ms ease;
  }
 
  .botones-form button:hover {
      background-color: #8B48BFB2;
      color: var(--color-texto-principal);
      cursor: pointer;
+     transform: scale(1.1);
  }
 
  .botones-form {
@@ -824,7 +843,7 @@
      }
 
      .social-links a {
-         padding: 0px 30px;
+         padding: 0px 26px;
      }
 
      .logo-links {
@@ -844,7 +863,7 @@
          font-style: normal;
          font-weight: 500;
          justify-content: center;
-         line-height: 18px;
+         line-height: 62px;
          margin-bottom: 40px;
          text-align: center;
      }

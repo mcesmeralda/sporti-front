@@ -28,8 +28,8 @@
      padding: 4vw;
      align-items: center;
      align-content: space-around;
-    width: 100vw;
-    
+     width: 100vw;
+
 
  }
 
@@ -415,8 +415,7 @@
      font-weight: 700;
      letter-spacing: -0.005em;
      line-height: 48px;
-
-    padding: 2vw;
+     padding: 2vw;
  }
 
  .boton-go {
@@ -598,7 +597,7 @@
      nav .list-link li {
          display: none;
      }
-    
+
 
      .informacion-items {
          align-items: center;
@@ -629,8 +628,8 @@
 
      }
 
-     .sub-go{
-        margin-right: 0;
+     .sub-go {
+         margin-right: 0;
      }
 
      .banner-img {
@@ -645,37 +644,38 @@
          padding: 7vw;
          text-align: right;
      }
-    }
+ }
 
-     @media screen and (max-width: 768px) {
-         nav .list-link li {
-             display: none;
-         }
+ @media screen and (max-width: 768px) {
+     nav .list-link li {
+         display: none;
+     }
 
-         .banner-img {
-            display: flex;
-            flex-direction: column;
-            padding: 7vw;
-            text-align: right;
-   
-        }
-         .bar-btn {
-             color: rgb(29, 24, 24);
-             cursor: pointer;
-             display: block;
-             font-size: 25px;
-             padding: 7vw;
-             margin-left: 50%;
-         }
+     .banner-img {
+         display: flex;
+         flex-direction: column;
+         padding: 7vw;
+         text-align: right;
+
+     }
+
+     .bar-btn {
+         color: rgb(29, 24, 24);
+         cursor: pointer;
+         display: block;
+         font-size: 25px;
+         padding: 7vw;
+         margin-left: 50%;
+     }
 
 
-         .card-section {
-             display: flex;
-             flex-direction: column;
-             padding: 7vw;
-             text-align: right;
-         }
-     
+     .card-section {
+         display: flex;
+         flex-direction: column;
+         padding: 7vw;
+         text-align: right;
+     }
+
 
 
      .card-setion-jugadores img {
@@ -714,8 +714,9 @@
          display: flex;
          flex-direction: column;
          justify-content: center;
-         padding-left: 50px;
-         padding-right: 60px;
+         padding-left: 12px;
+         padding-right: 12px;
+
      }
 
      .text-in {
@@ -795,7 +796,7 @@
          height: auto;
      }
 
- .logo-links {
+     .logo-links {
          display: flex;
          flex-direction: column-reverse;
          justify-content: flex-start;
@@ -862,11 +863,12 @@
      }
 
      .botones-form button {
-        border: none;
-        height: 42px;
-        width: 20vw;}
+         border: none;
+         height: 42px;
+         width: 20vw;
+     }
 
-    
+
 
      .info-container {
          background-color: var(--color-secundario);
@@ -889,41 +891,41 @@
      }
 
 
- 
-
- .informacion {
-     color: var(--color-texto-principal);
-     display: flex;
-     font-family: 'Be Vietnam';
-     font-size: 36px;
-     font-style: normal;
-     font-weight: 700;
-     line-height: 114.6%;
-     right: 190px;
-     text-align: left;
- }
-
- .text-informa {
-     line-height: 24.18px;
-     margin-left: 250px;
-     text-align: left;
-     width: 100vh;
- }
 
 
- .boton-go button {
-    background: #232C50;
-    border: none;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
-    width: 134px;
-    color: var(--color-principal);
-}
+     .informacion {
+         color: var(--color-texto-principal);
+         display: flex;
+         font-family: 'Be Vietnam';
+         font-size: 36px;
+         font-style: normal;
+         font-weight: 700;
+         line-height: 114.6%;
+         right: 190px;
+         text-align: left;
+     }
 
-.boton-go button:hover {
-    background-color: var(--color-principal);
-    color: var(--color-texto-principal);
-    cursor: pointer;
-}
+     .text-informa {
+         line-height: 24.18px;
+         margin-left: 250px;
+         text-align: left;
+         width: 100vh;
+     }
+
+
+     .boton-go button {
+         background: #232C50;
+         border: none;
+         box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+         width: 134px;
+         color: var(--color-principal);
+     }
+
+     .boton-go button:hover {
+         background-color: var(--color-principal);
+         color: var(--color-texto-principal);
+         cursor: pointer;
+     }
 
 
  }

@@ -223,7 +223,7 @@
      color: var(--color-texto-principal);
      display: flex;
      font-family: 'Be Vietnam';
-     font-size: 39px;
+     font-size: 50px;
      font-style: normal;
      font-weight: 700;
      line-height: 114.6%;
@@ -666,6 +666,8 @@
          padding: 7vw;
          text-align: right;
      }
+
+
  }
 
  @media screen and (max-width: 768px) {
@@ -681,6 +683,10 @@
 
      }
 
+
+     .text-informacion {
+       font-size: 16px;
+     }
      .bar-btn {
          color: rgb(29, 24, 24);
          cursor: pointer;
@@ -919,7 +925,7 @@
          color: var(--color-texto-principal);
          display: flex;
          font-family: 'Be Vietnam';
-         font-size: 36px;
+         font-size: 25px;
          font-style: normal;
          font-weight: 700;
          line-height: 114.6%;
